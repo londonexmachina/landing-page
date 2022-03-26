@@ -22,12 +22,15 @@ ol {
 }
 
 .first .bottom {
-    margin-top: 90px;
+    margin-top: 98px;
 }
 
 .first .bottom .left {
+    padding-top: 3px;
     padding-right: 50px;
     width: 450px;
+    height: 237px;
+    flex: 1;
 }
 
 .first .bottom .right {
@@ -36,7 +39,8 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 523px;
+    height: 240px;
 }
 
 .first .top, .first .bottom {
@@ -44,11 +48,6 @@ ol {
     margin-left: 210px;
     margin-right: 210px;
     align-items: center;
-}
-
-.first .bottom .left, .first .bottom .right {
-    height: 240px;
-    border: 2px solid red;
 }
 
 .hero {
@@ -60,6 +59,17 @@ ol {
 .subhero {
     margin-top: 0;
     font-size: 18px;
+}
+
+#first-button {
+    height: 35px;
+    width: 130px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #FAF9F8;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .second {
@@ -77,6 +87,9 @@ ol {
 
 .fifth {
     height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
 }
 
 .first, .fifth {
