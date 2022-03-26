@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.first {
+    height: 535px;
+}
+
+.second {
+    height: 500px;
+}
+
+.third {
+    height: 430px;
+    background: #E5E7EB;
+}
+
+.forth {
+    height: 350px;
+}
+
+.fifth {
+    height: 100px;
+}
+
+.first, .fifth {
+    background: #1F2937;
+    color: #FAF9F8;
+}
