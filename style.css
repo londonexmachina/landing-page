@@ -6,6 +6,7 @@ body {
 
 .first {
     height: 535px;
+    flex-direction: column;
 }
 
 .second {
@@ -28,4 +29,8 @@ body {
 .first, .fifth {
     background: #1F2937;
     color: #FAF9F8;
+}
+
+.first, .second, .third, .forth, .fifth {
+    display: flex;
 }
