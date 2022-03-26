@@ -34,3 +34,7 @@ body {
 .first, .second, .third, .forth, .fifth {
     display: flex;
 }
+
+.first .top, .first .bottom {
+    display: flex;
+}
