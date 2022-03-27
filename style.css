@@ -12,7 +12,7 @@ ol {
 }
 
 .first {
-    height: 535px;
+    height: 536px;
     flex-direction: column;
 }
 
@@ -74,15 +74,105 @@ ol {
 
 .second {
     height: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second .top {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.second .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.info-box {
+    border: 4px solid #3882F6;
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+}
+
+.info-text {
+    width: 160px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #4B5563;
 }
 
 .third {
     height: 430px;
     background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third .quote {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.third .quote .top {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    height: 160px;
+    font-style: italic;
+}
+
+.third .quote .bottom {
+    display: flex;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .forth {
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth .container {
+    height: 150px;
+    width: 1024px;
+    background-color: #3882F6;
+    color: #FAF9F8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth .container .left {
+    width: 652px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forth .container .left .top {
+    margin-bottom: -35px;
+}
+
+#second-button {
+    height: 37px;
+    width: 130px;
+    border: 2px solid #FAF9F8;;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #FAF9F8;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .fifth {
@@ -90,6 +180,10 @@ ol {
     justify-content: space-around;
     align-items: center;
     font-size: 12px;
+}
+
+.fifth h2 {
+    margin-left: 35px;
 }
 
 .first, .fifth {
